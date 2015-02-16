@@ -3,6 +3,7 @@ module Airbrake
       HTTP_X_CSRF_TOKEN
       HTTP_COOKIE
       HTTP_AUTHORIZATION
+      RAW_POST_DATA
 
       action_dispatch.request.unsigned_session_cookie
       action_dispatch.cookies
